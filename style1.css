@@ -1,0 +1,31 @@
+body {
+  background-image: linear-gradient(darkblue, black, darkblue);
+}
+
+
+.pilt {
+  position: absolute;
+  top: -2%;
+  left: 37%;
+  width: 26%;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+kena {
+	color: White;
+	font-family: Georgia;
+	font-size: 30px;
+        text-align: center;
+
+}
