@@ -33,10 +33,27 @@
    top: 70%;
    left: 50%;
    text-transform: full-width;
-   font-size: 3.7em;
+   font-size: 1.3em;
    letter-spacing: 0.2em;
    font-weight: 200;
    font-style: oblique;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+
+.powered{
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: #F9F1E9;
+   text-align: right;
+   bottom: 3%;
+   left: 82%;
+   text-transform: full-width;
+   font-size: 1em;
+   letter-spacing: 0.1em;
+   font-weight: 200;
+   font-style: italic;
    -webkit-transform: translate3d(-50%, -50%, 0);
    transform: translate3d(-50%, -50%, 0);
 }
@@ -55,15 +72,80 @@
 }
 .steamlogo {
    position: absolute;
-   left:95%;
+   left:96%;
    top:5%;
-   width:100px;
-   border-radius: 10px;
+   width:70px;
+   border-radius: 100px;
    height: auto;
    -webkit-transform: translate3d(-50%, -50%, 0);
    transform: translate3d(-50%, -50%, 0);
 }
 .steamlogo:hover{
+   box-shadow: 0 0 15px darkorange;
+}
+
+.facebook {
+   position: absolute;
+   left:90%;
+   top:5%;
+   width:70px;
+   border-radius: 100px;
+   height: auto;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+.facebook:hover{
+   box-shadow: 0 0 15px darkorange;
+}
+
+.instagram {
+   position: absolute;
+   left:84%;
+   top:5%;
+   width:70px;
+   border-radius: 100px;
+   height: auto;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+.instagram:hover{
+   box-shadow: 0 0 15px darkorange;
+}
+
+.tutslogo {
+   position: absolute;
+   left:94%;
+   bottom:-4%;
+   width:110px;
+   border-radius: 5px;
+   height: auto;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+.sotsmeedia {
+   position: absolute;
+   left:70%;
+   top:10%;
+   width:300px;
+   border-radius: 5px;
+   height: auto;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+.LoL {
+   position: absolute;
+   left:10%;
+   top:35%;
+   width:250px;
+   height:auto;
+   margin-left: 1px;
+   margin-right: 1px;
+   overflow: hidden;
+   border-radius: 50px;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+.LoL:hover{
    box-shadow: 0 0 15px darkorange;
 }
 .demo .main-title {
