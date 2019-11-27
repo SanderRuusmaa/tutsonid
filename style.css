@@ -132,9 +132,19 @@
    -webkit-transform: translate3d(-50%, -50%, 0);
    transform: translate3d(-50%, -50%, 0);
 }
+.repertuaar {
+   position: absolute;
+   left:25%;
+   top:12%;
+   width:350px;
+   border-radius: 5px;
+   height: auto;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
 .LoL {
    position: absolute;
-   left:10%;
+   left:14%;
    top:35%;
    width:250px;
    height:auto;
@@ -146,6 +156,22 @@
    transform: translate3d(-50%, -50%, 0);
 }
 .LoL:hover{
+   box-shadow: 0 0 15px darkorange;
+}
+.csgo {
+   position: absolute;
+   left:14%;
+   top:60%;
+   width:250px;
+   height:auto;
+   margin-left: 1px;
+   margin-right: 1px;
+   overflow: hidden;
+   border-radius: 50px;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+.csgo:hover{
    box-shadow: 0 0 15px darkorange;
 }
 .demo .main-title {
