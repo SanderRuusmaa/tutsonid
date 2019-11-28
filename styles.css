@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-image: url("csgo.jpg");
 }
 
 
@@ -10,6 +10,15 @@ body {
   position: relative;
   margin: auto;
 }
+
+.mehed li {
+  color: pink;
+}
+
+h1 {
+	color: pink;
+}
+
 
 .mySlides {
   display: none;
