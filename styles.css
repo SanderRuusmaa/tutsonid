@@ -1,24 +1,25 @@
 body {
   background-image: url("csgo.jpg");
-}
-
-
-* {box-sizing:border-box}
-
-.pildid {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-.mehed li {
-  color: pink;
+  font-family: Arial;
 }
 
 h1 {
 	color: pink;
 }
 
+
+.mehed li {
+  color: pink;
+}
+
+
+* {box-sizing:border-box}
+
+.pildid {
+	max-width: 400px;
+	position: relative;
+	margin: auto;
+}
 
 .mySlides {
   display: none;
@@ -52,14 +53,14 @@ h1 {
   color: #f2f2f2;
   font-size: 15px;
   padding: -8px 12px;
-  position: absolute;
+  position: relative;
   bottom: 8px;
   width: 100%;
   text-align: center;
 }
 
 .numbertext {
-  color: #f2f2f2;
+  color: black;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -80,3 +81,11 @@ h1 {
 .active, .dot:hover {
   background-color: #717171;
 }
+
+
+.secondcolumn {
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 1400px;
+}
+
