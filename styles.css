@@ -18,7 +18,7 @@ h1 {
 	max-width: 400px;
 	position: absolute;
 	margin-top: 100px;
-	margin-left: 50ox;
+	margin-left: 25px;
 }
 
 .mySlides {
@@ -32,7 +32,7 @@ h1 {
   width: auto;
   margin-top: -29px;
   padding: 10px;
-  color: white;
+  color: pink;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -67,10 +67,14 @@ h1 {
   top: 0;
 }
 
+img { 
+	border-radius: 20px;
+}
 
 .secondcolumn {
 	margin-top: 50px;
 	margin-right: 50px;
 	margin-left: 1400px;
 }
+
 
