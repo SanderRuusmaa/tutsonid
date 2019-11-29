@@ -12,13 +12,13 @@ h1 {
   color: pink;
 }
 
-
 * {box-sizing:border-box}
 
 .pildid {
 	max-width: 400px;
-	position: relative;
-	margin: auto;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 50ox;
 }
 
 .mySlides {
@@ -50,11 +50,11 @@ h1 {
 }
 
 .nimi {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: black;
+  font-size: 19px;
   padding: -8px 12px;
   position: relative;
-  bottom: 8px;
+  bottom: 6px;
   width: 100%;
   text-align: center;
 }
@@ -65,21 +65,6 @@ h1 {
   padding: 8px 12px;
   position: absolute;
   top: 0;
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
 }
 
 
