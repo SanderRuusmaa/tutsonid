@@ -22,21 +22,51 @@ body {
 
 kena {
 	position: absolute;
-  	top: 25%;
-  	left: 3%;
-  	width: 26%;
+  	top: 0%;
+  	left: 70%;
+  	width: 32%;
 	color: GoldenRod;
 	font-family:'Source Serif Pro', serif; 
+	font-size: 35px;
+}
+
+ilus {
+	position: absolute;
+  	top: 0%;
+  	left: 3%;
+  	width: 36%;
+	color: #00FFDB;
+	font-family: 'Roboto Slab', serif; 
 	font-size: 30px;
 }
 
-ul.b {
-  list-style-type: square;
+ilus2 {
+	position: absolute;
+  	top: 15%;
+  	left: 3%;
+  	width: 36%;
+	color: #00FFDB;
+	font-family: 'Roboto Slab', serif; 
+	font-size: 25px;
+}
+
+nimed{
+	color: #00FFDB;
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Acme', sans-serif;
+	font-size: 19px;
+	position: absolute;
+  	top: 45%;
+  	left: 34%;
+  	width: 26%;
 }
 
 kino{
+	color: GoldenRod;
+	font-family: 'Roboto Slab', serif; 
+	font-size: 30px;
 	position: absolute;
-  	top: 65%;
+  	top: 52%;
   	left: 3%;
   	width: 26%;
 }
@@ -53,8 +83,8 @@ kino{
   position:absolute;
   top: 50%;
   left: 32%;
-  height:50%;
-  width:50%;
+  height: 40%;
+  width: 40%;
 }
 
 .gallery:after{
@@ -63,11 +93,11 @@ kino{
 
 .shadow{
   position: absolute;
-  top: 500px;
-  left: 100px;
-  width: 500px;
-  height: 40px;
-  border-radius: 50%;
+  top: 120%;
+  left: 0%;
+  width: 90%;
+  height: 10%;
+  border-radius: 40%;
   background: radial-gradient(#16e3d4,rgba(0,0,0,0) 70%);
 }
 
@@ -83,8 +113,8 @@ img{
    background:linear-gradient(#00f9ff,white);
    width:var(--border-width);
    height:var(--border-height);
-   max-height:250px;
-   max-width:250px;
+   max-height:200px;
+   max-width:200px;
    height: var(--height);
    width:var(--width);
    transition:transform 0.2s;
