@@ -1,6 +1,6 @@
 body {
   background-image: url("csgo.jpg");
-  font-family: Arial;
+  font-family: Courier New;
 }
 
 h1 {
@@ -10,6 +10,17 @@ h1 {
 
 .mehed li {
   color: pink;
+  font-size:20px;
+}
+
+.saavulist li {
+	font-size:20px;
+	margin-top:10px;
+}
+
+.raha li {
+	font-size: 18px;
+	margin-top:10px;
 }
 
 * {box-sizing:border-box}
@@ -52,6 +63,7 @@ h1 {
 .nimi {
   color: black;
   font-size: 19px;
+  font-weight: bold;
   padding: -8px 12px;
   position: relative;
   bottom: 6px;
@@ -61,7 +73,8 @@ h1 {
 
 .numbertext {
   color: black;
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: bold;
   padding: 8px 12px;
   position: absolute;
   top: 0;
@@ -72,7 +85,7 @@ img {
 }
 
 .secondcolumn {
-	margin-top: 50px;
+	margin-top:auto;
 	margin-right: 50px;
 	margin-left: 1400px;
 }
