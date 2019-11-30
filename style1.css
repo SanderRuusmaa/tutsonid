@@ -1,9 +1,7 @@
 body {
   background-image: url('https://ryanmartinproductions.com/image/285981-full_download-wallpaper-zombie-ryze-skin-full-hd-on-gamewalls-lol.jpg');
-    /* Full height */
   height: 100%;
   width: 90%;
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,7 +21,7 @@ body {
   clear: both;
 }
 
-kena {
+.kena {
 	position: absolute;
   	top: 0%;
   	left: 67%;
@@ -33,7 +31,7 @@ kena {
 	font-size: 2em;
 }
 
-ilus {
+.ilus {
 	position: absolute;
   	top: 0%;
   	left: 3%;
@@ -43,7 +41,7 @@ ilus {
 	font-size: 2em;
 }
 
-ilus2 {
+.ilus2 {
 	position: absolute;
   	top: 15%;
   	left: 3%;
@@ -173,6 +171,12 @@ kino{
 	position: absolute;
 	width: 25%;
   	top: 45%;
+  	left: 3%;
+}
+
+kino1{
+	position: absolute;
+  	top: 60%;
   	left: 3%;
 }
 
