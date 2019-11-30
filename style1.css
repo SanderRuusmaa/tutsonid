@@ -1,24 +1,20 @@
 body {
-  background-image: url('https://ryanmartinproductions.com/image/285981-full_download-wallpaper-zombie-ryze-skin-full-hd-on-gamewalls-lol.jpg');
-  height: 100%;
-  width: 90%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0%;
-  padding: 0%;
-  overflow-x: hidden;
+	background-image: url('ryze.jpg');
+	background-repeat: no-repeat;
+	background-size: auto;
+	overflow-x: hidden;
 }
 
+
 .column {
-  float: left;
-  width: 33.33%;
+	float: left;
+	width: 33.33%;
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .kena {
@@ -33,7 +29,6 @@ body {
 
 .ilus {
 	position: absolute;
-  	top: 0%;
   	left: 3%;
   	width: 36%;
 	color: #00FFDB;
@@ -51,7 +46,7 @@ body {
 	font-size: 1.5em;
 }
 
-nimed1{
+.nimed1{
 	color: #00FFDB;
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Acme', sans-serif;
@@ -62,7 +57,7 @@ nimed1{
   	width: 26%;
 }
 
-nimed2{
+.nimed2{
 	color: GoldenRod;
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Acme', sans-serif;
@@ -73,7 +68,7 @@ nimed2{
   	width: 26%;
 }
 
-nimed3{
+.nimed3{
 	color: #62B2A;
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Acme', sans-serif;
@@ -84,7 +79,7 @@ nimed3{
   	width: 26%;
 }
 
-nimed4{
+.nimed4{
 	color: GoldenRod;
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Acme', sans-serif;
@@ -95,7 +90,7 @@ nimed4{
   	width: 26%;
 }
 
-nimed5{
+.nimed5{
 	color: #00FFDB;
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Acme', sans-serif;
@@ -106,7 +101,7 @@ nimed5{
   	width: 26%;
 }
 
-riiul{
+.riiul{
 	position: absolute;
   	top: 60%;
   	left: 67%;
@@ -114,7 +109,7 @@ riiul{
 	height: 25%;
 }
 
-karikas{
+.karikas{
 	position: absolute;
   	top: 41%;
   	left: 68%;
@@ -122,7 +117,7 @@ karikas{
 	height: 35%;
 }
 
-karikas1{
+.karikas1{
 	position: absolute;
   	top: 42%;
   	left: 78%;
@@ -130,7 +125,7 @@ karikas1{
 	height: 30%;
 }
 
-karikas2{
+.karikas2{
 	position: absolute;
   	top: 45%;
   	left: 86%;
@@ -138,7 +133,7 @@ karikas2{
 	height: 25%;
 }
 
-medalid{
+.medalid{
 	position: absolute;
   	top: 67%;
   	left: 80%;
@@ -150,7 +145,7 @@ medalid{
 	font-size: 2.3em;
 }
 
-medalid2{
+.medalid2{
 	position: absolute;
   	top: 87%;
   	left: 77%;
@@ -163,7 +158,7 @@ medalid2{
 
 
 
-kino{
+.kino{
 	color: GoldenRod;
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Acme', sans-serif;
@@ -174,7 +169,7 @@ kino{
   	left: 3%;
 }
 
-kino1{
+.kino1{
 	position: absolute;
   	top: 60%;
   	left: 3%;
