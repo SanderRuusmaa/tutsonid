@@ -3,8 +3,7 @@ body {
 	font-family: Courier New;
     background-size: cover;                 
 	background-repeat: no-repeat;
-	height: 100%;
-	width: 100%;
+	
 }
 
 h1 {
@@ -12,10 +11,9 @@ h1 {
 }
 
 .secondcolumn {
-	position: relative;
-	margin-right: 50px;
-	margin-left: 1200px;
-
+	position: absolute;
+	left: 65%;
+	top: 10%;
 }
 
 .mehed li {
@@ -25,16 +23,16 @@ h1 {
 }
 
 .saavutused {
+	top:5%;
 	position: relative;
-	top:10%;
 	right:10%;
 	
 }
 
 .earnings {
-	right:20%;
+	right:10%;
 	position:relative;
-	top: 80%;
+	top: 90%;
 }
 
 .saavulist li {
@@ -50,11 +48,10 @@ h1 {
 	
 }
 
-
 .trophy {
 	position:absolute;
-	top:100%;
-	width:200px;
+	top:120%;
+	width:150px;
 }
 
 * {box-sizing:border-box}
