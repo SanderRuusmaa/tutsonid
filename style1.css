@@ -50,16 +50,117 @@ ilus2 {
 	font-size: 25px;
 }
 
-nimed{
+nimed1{
 	color: #00FFDB;
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Acme', sans-serif;
-	font-size: 19px;
+	font-size: 22px;
 	position: absolute;
-  	top: 45%;
-  	left: 34%;
+  	top: 43%;
+  	left: 33%;
   	width: 26%;
 }
+
+nimed2{
+	color: GoldenRod;
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Acme', sans-serif;
+	font-size: 22px;
+	position: absolute;
+  	top: 43%;
+  	left: 46%;
+  	width: 26%;
+}
+
+nimed3{
+	color: #62B2A;
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Acme', sans-serif;
+	font-size: 22px;
+	position: absolute;
+  	top: 43%;
+  	left: 61%;
+  	width: 26%;
+}
+
+nimed4{
+	color: GoldenRod;
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Acme', sans-serif;
+	font-size: 22px;
+	position: absolute;
+  	top: 93%;
+  	left: 42%;
+  	width: 26%;
+}
+
+nimed5{
+	color: #00FFDB;
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Acme', sans-serif;
+	font-size: 22px;
+	position: absolute;
+  	top: 93%;
+  	left: 54%;
+  	width: 26%;
+}
+
+riiul{
+	position: absolute;
+  	top: 60%;
+  	left: 67%;
+	width: 35%;
+	height: 25%;
+}
+
+karikas{
+	position: absolute;
+  	top: 41%;
+  	left: 68%;
+	width: 20%;
+	height: 35%;
+}
+
+karikas1{
+	position: absolute;
+  	top: 42%;
+  	left: 78%;
+	width: 17%;
+	height: 30%;
+}
+
+karikas2{
+	position: absolute;
+  	top: 45%;
+  	left: 86%;
+	width: 16%;
+	height: 25%;
+}
+
+medalid{
+	position: absolute;
+  	top: 67%;
+  	left: 80%;
+	width: 12%;
+	height: 21%;
+	color: #00FFDB;
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Acme', sans-serif;
+	font-size: 40px;
+}
+
+medalid2{
+	position: absolute;
+  	top: 87%;
+  	left: 77%;
+	width: 22%;
+	color: #00FFDB;
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Acme', sans-serif;
+	font-size: 48px;
+}
+
+
 
 kino{
 	color: GoldenRod;
