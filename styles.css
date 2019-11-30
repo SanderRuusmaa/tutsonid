@@ -4,12 +4,19 @@ body {
     background-size: cover;                 
 	background-repeat: no-repeat;
 	height: 100%;
+	width: 100%;
 }
 
 h1 {
 	color: pink;
 }
 
+.secondcolumn {
+	position: absolute;
+	margin-right: 50px;
+	margin-left: 1200px;
+
+}
 
 .mehed li {
   color: pink;
@@ -19,8 +26,14 @@ h1 {
 
 .saavutused {
 	position:relative;
-	top:200%
-	padding-bottom:10px;
+	top:50%;
+	
+}
+
+.earnings {
+	right:30%;
+	position:relative;
+	top: 80%;
 }
 
 .saavulist li {
@@ -36,11 +49,6 @@ h1 {
 	
 }
 
-.earnings {
-	right:65%;
-	position:relative;
-	top: 80%;
-}
 
 .trophy {
 	position:absolute;
@@ -109,12 +117,6 @@ img {
 	border-radius: 20px;
 }
 
-.secondcolumn {
-	position: absolute;
-	margin-right: 50px;
-	margin-left: 1300px;
-    padding-right: 50px;
 
-}
 
 
