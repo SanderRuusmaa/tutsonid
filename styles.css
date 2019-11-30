@@ -12,7 +12,7 @@ h1 {
 }
 
 .secondcolumn {
-	position: absolute;
+	position: relative;
 	margin-right: 50px;
 	margin-left: 1200px;
 
@@ -25,13 +25,14 @@ h1 {
 }
 
 .saavutused {
-	position:relative;
-	top:50%;
+	position: relative;
+	top:10%;
+	right:10%;
 	
 }
 
 .earnings {
-	right:30%;
+	right:20%;
 	position:relative;
 	top: 80%;
 }
@@ -52,7 +53,7 @@ h1 {
 
 .trophy {
 	position:absolute;
-	top:130%;
+	top:100%;
 	width:200px;
 }
 
