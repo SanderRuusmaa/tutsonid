@@ -3,28 +3,57 @@ body {
 	font-family: Courier New;
     background-size: cover;                 
 	background-repeat: no-repeat;
-	height: 100%;
+	
 }
 
 h1 {
 	color: pink;
 }
 
+.secondcolumn {
+	position: absolute;
+	left: 65%;
+	top: 10%;
+}
 
 .mehed li {
-  color: pink;
-  font-size:20px;
+  color: yellow;
+  font-size:22px;
   margin-top:5px;
 }
 
+.saavutused {
+	top:5%;
+	position: relative;
+	right:10%;
+	
+}
+
+.earnings {
+	right:10%;
+	position:relative;
+}
+
 .saavulist li {
+	color:yellow;
 	font-size:20px;
 	margin-top:10px;
+	
 }
 
 .raha li {
-	font-size: 18px;
+	color:yellow;
+	text-align:leftwards;
+	font-size: 20px;
 	margin-top:10px;
+	
+}
+
+.trophy {
+	position:absolute;
+	top:120%;
+	left: 15%;
+	width:200px;
 }
 
 * {box-sizing:border-box}
@@ -32,7 +61,7 @@ h1 {
 .pildid {
 	max-width: 400px;
 	position: absolute;
-	margin-top: 100px;
+	margin-top: 40px;
 	margin-left: 25px;
 }
 
@@ -49,7 +78,7 @@ h1 {
   padding: 10px;
   color: pink;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -70,7 +99,7 @@ h1 {
   font-weight: bold;
   padding: -8px 12px;
   position: relative;
-  bottom: 6px;
+  bottom: 5px;
   width: 100%;
   text-align: center;
 }
@@ -88,12 +117,6 @@ img {
 	border-radius: 20px;
 }
 
-.secondcolumn {
-	position: absolute;
-	margin-right: 50px;
-	margin-left: 1300px;
-    padding-right: 50px;
 
-}
 
 
