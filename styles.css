@@ -1,5 +1,6 @@
 body {
   background-image: url("csgo.jpg");
+  background-size: auto;
   font-family: Courier New;
 }
 
