@@ -2,11 +2,14 @@ body {
   background-image: url('https://ryanmartinproductions.com/image/285981-full_download-wallpaper-zombie-ryze-skin-full-hd-on-gamewalls-lol.jpg');
     /* Full height */
   height: 100%;
-
+  width: 90%;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
 }
 
 .column {
@@ -23,11 +26,11 @@ body {
 kena {
 	position: absolute;
   	top: 0%;
-  	left: 70%;
+  	left: 67%;
   	width: 32%;
 	color: GoldenRod;
 	font-family:'Source Serif Pro', serif; 
-	font-size: 35px;
+	font-size: 2em;
 }
 
 ilus {
@@ -37,7 +40,7 @@ ilus {
   	width: 36%;
 	color: #00FFDB;
 	font-family: 'Roboto Slab', serif; 
-	font-size: 30px;
+	font-size: 2em;
 }
 
 ilus2 {
@@ -47,14 +50,14 @@ ilus2 {
   	width: 36%;
 	color: #00FFDB;
 	font-family: 'Roboto Slab', serif; 
-	font-size: 25px;
+	font-size: 1.5em;
 }
 
 nimed1{
 	color: #00FFDB;
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Acme', sans-serif;
-	font-size: 22px;
+	font-size: 1.5em;
 	position: absolute;
   	top: 43%;
   	left: 33%;
@@ -65,7 +68,7 @@ nimed2{
 	color: GoldenRod;
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Acme', sans-serif;
-	font-size: 22px;
+	font-size: 1.5em;
 	position: absolute;
   	top: 43%;
   	left: 46%;
@@ -76,7 +79,7 @@ nimed3{
 	color: #62B2A;
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Acme', sans-serif;
-	font-size: 22px;
+	font-size: 1.5em;
 	position: absolute;
   	top: 43%;
   	left: 61%;
@@ -87,7 +90,7 @@ nimed4{
 	color: GoldenRod;
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Acme', sans-serif;
-	font-size: 22px;
+	font-size: 1.5em;
 	position: absolute;
   	top: 93%;
   	left: 42%;
@@ -98,7 +101,7 @@ nimed5{
 	color: #00FFDB;
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Acme', sans-serif;
-	font-size: 22px;
+	font-size: 1.5em;
 	position: absolute;
   	top: 93%;
   	left: 54%;
@@ -146,7 +149,7 @@ medalid{
 	color: #00FFDB;
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Acme', sans-serif;
-	font-size: 40px;
+	font-size: 2.3em;
 }
 
 medalid2{
@@ -157,19 +160,20 @@ medalid2{
 	color: #00FFDB;
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Acme', sans-serif;
-	font-size: 48px;
+	font-size: 3em;
 }
 
 
 
 kino{
 	color: GoldenRod;
-	font-family: 'Roboto Slab', serif; 
-	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Acme', sans-serif;
+	font-size: 2em;
 	position: absolute;
-  	top: 52%;
+	width: 25%;
+  	top: 45%;
   	left: 3%;
-  	width: 26%;
 }
 
 :root{
@@ -190,16 +194,6 @@ kino{
 
 .gallery:after{
   content:'';
-}
-
-.shadow{
-  position: absolute;
-  top: 120%;
-  left: 0%;
-  width: 90%;
-  height: 10%;
-  border-radius: 40%;
-  background: radial-gradient(#16e3d4,rgba(0,0,0,0) 70%);
 }
 
 img{
